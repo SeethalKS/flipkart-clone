@@ -292,6 +292,7 @@ padding-left: 90px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
+        height: 300px;
     }
 
     .slide {
@@ -304,18 +305,33 @@ padding-left: 90px;
 
     .t-container {
         flex-direction: column;
+        
     }
-
+    .left-items{
+        flex-direction: column;
+        height:1225px;
+    }
     .left-section,
     .right-section {
         width: 100%;
         margin: 0;
     }
+    .w-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 1240px;
+    }
+    .footer-text{
+        padding-top: 400px;
+    }
 }
 /***************/
 @media (min-width: 768px) and (max-width: 1024px) {
     .category {
-        justify-content: center;
+       flex-wrap: wrap;
+      
+        /* justify-content: center; */
+        flex-direction: row;
         gap: 15px;
     }
 
