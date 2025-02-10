@@ -323,12 +323,11 @@ padding-left: 90px;
         flex-wrap: wrap;
         height: 1240px;
        
-        width: 110px;
+        width: 200px;
     }
-   
     .witem{
     margin-left:10px;
-    width: 290px;
+    width: 205px;
     margin-right: 15px;
     }
     .footer-text{
