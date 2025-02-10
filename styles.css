@@ -292,7 +292,7 @@ padding-left: 90px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
-        height: 400px;
+        height: 450px;
     }
 
     .slide {
@@ -338,7 +338,7 @@ padding-left: 90px;
         padding-right: 15px;
     }
     .footerpart1{
-      border: 2px solid white;
+      
       margin-left:1px ;
         
     }
